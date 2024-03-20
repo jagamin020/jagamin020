@@ -12,11 +12,11 @@ function App() {
       <div className="leftPort">
         <ImageProfile image="/src/assets/react.svg" />
 
-        <Title title="Jagamin Kansrirat (OHM)">
-          <h3>ตำแหน่ง : Frontend</h3>
+        <Title title="จักมินทร์ ก้านศรีรัตน์">
+          <h3>ชื่อเล่น : โอม</h3>
         </Title>
 
-        <Title title="Contact">
+        <Title title="ติดต่อ">
      
           <p>วันที่ปัจจุบัน: {moment().format("D MMM YYYY")}</p>
           <p>วันเกิด: {moment("2002/10/29").format("D MMM YYYY")}</p>
@@ -30,28 +30,26 @@ function App() {
           <p>www.s64122202020@ssru.ac.th.com</p>
         </Title>
     
-        <Title title="Education">
+        <Title title="ศึกษาที่">
           <p>ปริญญาตรี สาขาเทคโนโลยีสารสนเทศ</p>
           <p>มหาวิทยาลัยราชภัฏสวนสุนันทา</p> 
         </Title>
       </div>
 
       <div className="rightPort">
-        <Title title="Profile">
+        <Title title="สถานะ">
           <p>กำลังศึกษา ปริญญาตรีชั้นปีที่ 3 ที่ มหาวิทยาลัยราชภัฎสวนสุนนันทา คณะวิทยาศาสตร์และเทคโนโลยี สาขาเทคโนโลยีสารสนเทศ </p>
         </Title>
 
-        <Title title="Work Experience">
+        <Title title="ประสบการ์ณ">
           <p>ประสบการณ์การทำ งานพาร์ทไทม์ โรงพิมพ์,สกี้ตี๋น้อย</p>
         </Title>
 
-        <Title title="Skills">
-          <p>HTML / CSS / JS</p>
-          <p>React.js</p>
-          <p>Next.js</p>
-          <p>Vue.js</p>
-          <p>Git</p>
+        <Title title="สมมุติ">
+          <p>ปปปปป</p>
         </Title>
+
+        
       </div>
     </main>
   )

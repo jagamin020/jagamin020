@@ -4,7 +4,7 @@
 }
 
 .leftPort{
-  background-color: #242424;
+  background-color: #f50000;
   width: 400px;
   flex-shrink: 0;
   padding: 30px;
@@ -12,7 +12,7 @@
 }
 
 .rightPort{
-  background-color: gray;
+  background-color: rgb(240, 170, 170);
   width: 100%;
   flex-grow: 1;
   padding: 4rem;
@@ -36,7 +36,7 @@
 }
 
 .titleProt h2{
-  color: greenyellow;
+  color: rgb(255, 255, 255);
 }
 p{
   margin-bottom: 15px;
