@@ -10,44 +10,53 @@ function App() {
   return (
     <main id="main">
       <div className="leftPort">
-        <ImageProfile image="/src/assets/react.svg" />
+        <ImageProfile image="/src/assets/ohm2.png" />
 
-        <Title title="จักมินทร์ ก้านศรีรัตน์">
-          <h3>ชื่อเล่น : โอม</h3>
-        </Title>
+        
+        
 
-        <Title title="ติดต่อ">
+        <Title title="ประวัติส่วนตัว">
+          
      
-          <p>วันที่ปัจจุบัน: {moment().format("D MMM YYYY")}</p>
-          <p>วันเกิด: {moment("2002/10/29").format("D MMM YYYY")}</p>
-          <p style={{ display: hide ? 'none': 'block'}} >
-            Tel : +66877543002
-          </p>
-          <button onClick={() => setHide(!hide)}>
-            {hide ? 'Show': 'Hide'}
-          </button>
-          <p>Email : s64122202020@ssru.ac.th</p>
-          <p>www.s64122202020@ssru.ac.th.com</p>
+          <p>ชื่อ จักมินทร์ ก้านศรีรัตน์</p>
+          <p>ชื่อเล่น โอม</p>
+          <p>อายุ 21 ปี</p>
+          <p>วันเกิด {moment("2002/10/29").format("D MMM YYYY")}</p>
+          
         </Title>
-    
-        <Title title="ศึกษาที่">
-          <p>ปริญญาตรี สาขาเทคโนโลยีสารสนเทศ</p>
-          <p>มหาวิทยาลัยราชภัฏสวนสุนันทา</p> 
+
+        <Title title="ช่องทางติดต่อ">
+          <p>เบอร์โทร  093-294-0893</p>
+          <p>ไลน์ ohmmycz</p> 
+          <p>เฟชบุ๊ค Ohm jaggamin</p> 
+          <p>อีเมล ohmmy1012545@gmail.com</p> 
         </Title>
+
+        <button onclick="window.location.href='#'">ดูเพิ่มเติม</button>
+
+
       </div>
 
+
+
       <div className="rightPort">
-        <Title title="สถานะ">
+        <Title title="การศึกษา">
           <p>กำลังศึกษา ปริญญาตรีชั้นปีที่ 3 ที่ มหาวิทยาลัยราชภัฎสวนสุนนันทา คณะวิทยาศาสตร์และเทคโนโลยี สาขาเทคโนโลยีสารสนเทศ </p>
         </Title>
 
-        <Title title="ประสบการ์ณ">
-          <p>ประสบการณ์การทำ งานพาร์ทไทม์ โรงพิมพ์,สกี้ตี๋น้อย</p>
+        <Title title="เกรดเฉลี่ย">
+          <p>GPA เกรดเฉลี่ยสะสม 3.75</p>
         </Title>
 
-        <Title title="สมมุติ">
-          <p>ปปปปป</p>
+        <Title title="ทักษะความสมารถ">
+          <p>การประกอบคอมพื้นฐาน</p>
+          <p>การเขียน โค้ด html พื้นฐาน</p>
+          <p>การออกแบบเว็บไซต์</p>
+          <p>การต่อวงจรไฟ iot</p>
+          
         </Title>
+        <button onclick="window.location.href='#'">ดูเพิ่มเติม</button>
+        
 
         
       </div>
